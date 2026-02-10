@@ -5,6 +5,8 @@
 
 using namespace std;
 
+string version = "题库系统v1.2.3";
+
 struct Tiku //题库的结构体
 {
     string timu; //题目
@@ -259,7 +261,7 @@ void GetTable() //生成表格
     }
     cout << "╠═════════════════════════════════════════════════════════════════════════════╣" << endl;
     gotoxy(2, 1);
-    cout << "题库系统v1.2.2";
+    cout << version;
     gotoxy(0, 13);
     cout << "║";
     gotoxy(78, 13);
